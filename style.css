@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+* {
+  font-family: "EB Garamond", serif;
+}
+
+body {
+    height: 90vh;
+    margin: 50px 50px;
+  background-image: linear-gradient(
+      45deg,
+      rgba(254, 246, 210, 0.53) 0%,
+      rgba(254, 246, 210, 0.53) 14.286%,
+      rgba(221, 240, 216, 0.53) 14.286%,
+      rgba(221, 240, 216, 0.53) 28.572%,
+      rgba(188, 233, 223, 0.53) 28.572%,
+      rgba(188, 233, 223, 0.53) 42.858%,
+      rgba(156, 227, 229, 0.53) 42.858%,
+      rgba(156, 227, 229, 0.53) 57.144%,
+      rgba(123, 220, 235, 0.53) 57.144%,
+      rgba(123, 220, 235, 0.53) 71.42999999999999%,
+      rgba(90, 214, 242, 0.53) 71.43%,
+      rgba(90, 214, 242, 0.53) 85.71600000000001%,
+      rgba(57, 207, 248, 0.53) 85.716%,
+      rgba(57, 207, 248, 0.53) 100.002%
+    ),
+    linear-gradient(
+      135deg,
+      rgb(246, 99, 200) 0%,
+      rgb(246, 99, 200) 12.5%,
+      rgb(223, 98, 196) 12.5%,
+      rgb(223, 98, 196) 25%,
+      rgb(199, 97, 192) 25%,
+      rgb(199, 97, 192) 37.5%,
+      rgb(176, 96, 188) 37.5%,
+      rgb(176, 96, 188) 50%,
+      rgb(152, 95, 184) 50%,
+      rgb(152, 95, 184) 62.5%,
+      rgb(129, 94, 180) 62.5%,
+      rgb(129, 94, 180) 75%,
+      rgb(105, 93, 176) 75%,
+      rgb(105, 93, 176) 87.5%,
+      rgb(82, 92, 172) 87.5%,
+      rgb(82, 92, 172) 100%
+    );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  width: 400px;
+  height: 500px;
+  border: 4px solid black;
+  border-radius: 10px;
+  margin-top: 45px;
+  padding: 20px;
+  color:azure;
+  overflow-y: scroll;
+  background-image: linear-gradient(
+      135deg,
+      rgba(107, 107, 107, 0.06) 0%,
+      rgba(107, 107, 107, 0.06) 50%,
+      rgba(202, 202, 202, 0.06) 50%,
+      rgba(202, 202, 202, 0.06) 100%
+    ),
+    linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
+  background-size: 30px 30px;
+}
+.app::-webkit-scrollbar{
+    width: 0;
+}
+#addnew {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  color: black;
+  border-radius: 15px;
+  cursor: pointer;
+  background-image: radial-gradient(
+      circle at 30% 86%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 8%,
+      transparent 8%,
+      transparent 92%
+    ),
+    radial-gradient(
+      circle at 55% 100%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 8%,
+      transparent 8%,
+      transparent 92%
+    ),
+    radial-gradient(
+      circle at 40% 75%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 6%,
+      transparent 6%,
+      transparent 94%
+    ),
+    radial-gradient(
+      circle at 7% 99%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 6%,
+      transparent 6%,
+      transparent 94%
+    ),
+    radial-gradient(
+      circle at 69% 76%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 6%,
+      transparent 6%,
+      transparent 94%
+    ),
+    radial-gradient(
+      circle at 2% 35%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 6%,
+      transparent 6%,
+      transparent 94%
+    ),
+    radial-gradient(
+      circle at 14% 48%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 6%,
+      transparent 6%,
+      transparent 94%
+    ),
+    radial-gradient(
+      circle at 28% 87%,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(255, 255, 255, 0.04) 4%,
+      transparent 4%,
+      transparent 96%
+    ),
+    radial-gradient(
+      circle at 65% 14%,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(255, 255, 255, 0.04) 4%,
+      transparent 4%,
+      transparent 96%
+    ),
+    radial-gradient(
+      circle at 51% 36%,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(255, 255, 255, 0.04) 4%,
+      transparent 4%,
+      transparent 96%
+    ),
+    radial-gradient(
+      circle at 6% 93%,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(255, 255, 255, 0.04) 4%,
+      transparent 4%,
+      transparent 96%
+    ),
+    linear-gradient(135deg, rgb(23, 233, 173), rgb(29, 24, 208));
+}
+
+.fa-plus {
+  padding: 3px;
+  border-radius: 3px;
+  background-color: black;
+  color: bisque;
+}
+
+#tasks {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+#tasks div {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    display: grid;
+    gap: 4px;
+  background-image: repeating-linear-gradient(
+      45deg,
+      hsla(64, 83%, 54%, 0.05) 0px,
+      hsla(64, 83%, 54%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(64, 83%, 54%, 0.05) 11px,
+      hsla(64, 83%, 54%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(64, 83%, 54%, 0.05) 0px,
+      hsla(64, 83%, 54%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(64, 83%, 54%, 0.05) 11px,
+      hsla(64, 83%, 54%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      hsla(64, 83%, 54%, 0.05) 0px,
+      hsla(64, 83%, 54%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(64, 83%, 54%, 0.05) 11px,
+      hsla(64, 83%, 54%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      hsla(64, 83%, 54%, 0.05) 0px,
+      hsla(64, 83%, 54%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(64, 83%, 54%, 0.05) 11px,
+      hsla(64, 83%, 54%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    linear-gradient(90deg, rgb(41, 27, 158), rgb(249, 77, 212));
+}
+.options{
+    display: flex;
+    gap: 20px;
+    row-gap: 2px;
+    padding: 5px;
+    justify-content:center;
+    cursor: pointer;
+}
+
+form{
+  color:black;
+}
+#msg{
+  color: red;
+}
